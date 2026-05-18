@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body{
+            font-family: Arial;
+            background-color: lightblue;
+            text-align:center;
+        }
+        .card{
+            background:white;
+            width:300px;
+            margin:auto;
+            padding:20px;
+            border-radius:10px;
+        }
+        img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+        }
+        .social-icons{
+            margin-top: 20px;
+        }
+
+        .social-icons a{
+            text-decoration: none;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            margin: 8px;
+            border-radius: 50%;
+            background: green;
+            color: white;
+            font-size: 24px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover{
+            background: darkgreen;
+            transform: scale(1.2);
+        }
+        button{
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="newphoto.jpg" alt="My Photo">
+    <h1>Viswaa</h1>
+    <p>MSc AI Student</p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=viswaamekala@gmail.com" target="_blank">
+    <button>Contact Me</button>
+    </a>
+   <div class="social-icons">
+   <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+   <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+   <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+</div>
+
+</body>
+</html>
